@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-./countdown.zsh
+source ${ZSH}/custom/countdown.zsh
 
 function ds3_backup {
   timeout=$1
